@@ -9,6 +9,7 @@ const pages = createPages(container);
 
 const router = createRouter();
 
+// * router.js > router.add.Route = (fragment, component) => {...} 사용부
 router
   .addRoute("#/", pages.home)
   .addRoute("#/list", pages.list)
