@@ -1,4 +1,6 @@
-// 두번째 버전 2 (프로그래밍 방식 ) --- extractUrlParams 메서드 && 정규식을 이용한
+// ! Router 구성 (Contoller Configuration)
+// ! > Ver.2.1 (프로그래밍 방식 ) --- extractUrlParams 메서드 && 정규식을 이용한
+
 const ROUTE_PARAMETER_REGEXP = /:(\w+)/g; // route parameter는 루트 레지스트리의 url (기존 html a태그에서 href에 fragment 식별자로 등록한 컴포넌트를 식별하는 url (url 파라미터))
 const URL_FRAGMENT_REGEXP = "([^\\/]+)"; // winodw.location.hash가 아닐끼?...
 

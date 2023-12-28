@@ -1,4 +1,6 @@
-// 첫번째 버전 (고전적인 방식)
+// ! Router (Contoller Configuration)
+// ! > Ver.1.0 (고전적인 방식)
+
 export default () => {
   const routes = [];
   let notFound = () => {};

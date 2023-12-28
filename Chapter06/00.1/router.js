@@ -1,4 +1,6 @@
-// 두번째 버전 1 (프로그래밍 방식) --- navigate 메서드 추가
+// ! Router 구성 (Contoller Configuration)
+// ! > Ver.2.0 (프로그래밍 방식) --- navigate 메서드 추가
+
 export default () => {
   const routes = [];
   let notFound = () => {};
